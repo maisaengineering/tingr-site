@@ -130,11 +130,18 @@ p {
 }
 
 #features{
-margin-top:5px;
+  margin-top:20px;
+  margin-bottom: 20px;
 }
 .service-title{
-  font-size:20px;
+  font-size:24px;
   color:#000;
+  margin-top: 20px;
+  //margin-bottom: 10px;
+  font-weight: 300;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  letter-spacing: 1px;
+  line-height: 1.1;
 }
 .service-sub-title{
   font-size:18px;
@@ -782,4 +789,27 @@ body {
   font-size:30px;
   top: 4px !important;
   position: relative;
+}
+
+.service-desc{
+  text-align: left;
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+.text-desc{
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  margin-top: 5px;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.service-sub-title{
+  color: #737373;
 }
