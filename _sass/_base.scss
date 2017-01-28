@@ -213,6 +213,10 @@ p {
     z-index: 1;
 }
 
+.teacher_overlay:hover{
+  cursor: pointer;
+}
+
 .parent_overlay{
       position: absolute;
     width: 50%;
@@ -220,6 +224,11 @@ p {
     height: 100%;
     z-index: 1;
 }
+
+.parent_overlay:hover{
+  cursor: pointer;
+}
+
 
 #header{
   position: relative;
@@ -781,6 +790,9 @@ body {
 .pri-yellow{
   color: #fdcc52;
 }
+.pri-cyan{
+  color: #03A9F4;
+}
 .read-more{
   font-size:15px;
   font-weight: bold;
@@ -812,4 +824,9 @@ body {
 
 .service-sub-title{
   color: #737373;
+}
+
+.service-box{
+  margin-top: 20px;
+  margin-bottom: 40px;
 }

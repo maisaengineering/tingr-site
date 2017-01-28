@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="/vendor/font-awesome/css/font-awesome.min.css">
 
     <link href="/css/main.css" rel="stylesheet">
-    <link href="/css/slick.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,7 +32,6 @@
     <script src="/js/jquery.js"></script>
     <script src="/js/app.js"></script>
     <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="/js/slick.min.js"></script>
 
 </head>
 
@@ -84,50 +82,54 @@
     <div class="container">
 
         <!-- Parent features -->
-
-        <div class="row service-slides parent-features" id="parent-features">
-            <div class="col-lg-3 col-md-6 text-center">
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 text-center">
                 <div class="service-box">
                     <img src="/img/manage-family.png" style="margin: auto;"/>
-                    <h3>Manage family</h3>
-                    <h4>parent managing kid and entire family. they can add/remove who can access this kid.</h4>
-                    <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+                    <div class="service-title">Manage family</div>
+                    <div class="text-muted">parent managing kid and entire family. they can add/remove who can access this kid.</div>
+                    <div class="text-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lo...</div>
+                    <div class="pri-cyan read-more" data-toggle="modal" data-target="#parent_manage_family">Read more <span class="right-arrow">&#8594;</span></div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 text-center">
+            <div class="col-lg-4 col-sm-6 text-center">
                 <div class="service-box">
                     <img src="/img/parent-message.png" style="margin: auto;"/>
-                    <h3>Message</h3>
-                    <h4>parent can send message to school. let’s say kid is not coming to school today.</h4>
-                    <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+                    <div class="service-title">Message</div>
+                    <div class="text-muted">parent can send message to school. let’s say kid is not coming to school today.</div>
+                    <div class="text-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lo...</div>
+                    <div class="pri-cyan read-more" data-toggle="modal" data-target="#parent_messages">Read more <span class="right-arrow">&#8594;</span></div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 text-center">
+            <div class="col-lg-4 col-sm-6 text-center">
                 <div class="service-box">
                     <img src="/img/connect.png" style="margin: auto;"/>
-                    <h3>Connect</h3>
-                    <h4>parent can connect with other parents. or may be friends — not necessarily friends.</h4>
-                    <p class="text-muted">We update dependencies to keep things fresh.</p>
+                    <div class="service-title">Connect</div>
+                    <div class="text-muted">parent can connect with other parents. or may be friends — not necessarily friends.</div>
+                    <div class="text-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lo...</div>
+                    <div class="pri-cyan read-more" data-toggle="modal" data-target="#parent_connect">Read more <span class="right-arrow">&#8594;</span></div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 text-center">
+            <div class="col-lg-4 col-sm-6 text-center">
                 <div class="service-box">
                     <img src="/img/share.png" style="margin: auto;"/>
-                    <h3>Share</h3>
-                    <h4>parent can share a photo/text with his friends or family</h4>
-                    <p class="text-muted">You have to make your websites with love these days!</p>
+                    <div class="service-title">Share</div>
+                    <div class="text-muted">parent can share a photo/text with his friends or family</div>
+                    <div class="text-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lo...</div>
+                    <div class="pri-cyan read-more" data-toggle="modal" data-target="#parent_share">Read more <span class="right-arrow">&#8594;</span></div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 text-center">
+
+            <div class="col-lg-4 col-sm-6 text-center">
                 <div class="service-box">
                     <img src="/img/parent_notes.png" style="margin: auto;"/>
-                    <h3>Note</h3>
-                    <h4>parent can take notes</h4>
-                    <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+                    <div class="service-title">Note</div>
+                    <div class="text-muted">parent can take notes</div>
+                    <div class="text-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lo...</div>
+                    <div class="pri-cyan read-more" data-toggle="modal" data-target="#parent_notes">Read more <span class="right-arrow">&#8594;</span></div>
                 </div>
             </div>
         </div>
-
     </div>
 </div>
 
@@ -139,14 +141,126 @@
                 <h2 class="section-heading">Download Parent app</h2>
                 <p>Our app is available on any mobile device! Download now to get started!</p>
                 <div class="badges">
-                    <a class="badge-link" href="#"><img src="/img/google-play-badge.svg" alt=""></a>
-                    <a class="badge-link" href="#"><img src="/img/app-store-badge.svg" alt=""></a>
+                    <a class="badge-link" href="#" data-toggle="modal" data-target="#parent_app"><img src="/img/google-play-badge.svg" alt=""></a>
+                    <a class="badge-link" href="#" data-toggle="modal" data-target="#parent_app"><img src="/img/app-store-badge.svg" alt=""></a>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+
+<!-- Parent download modal box -->
+<div class="modal fade" id="parent_app" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title text-center">Parent app</h3>
+            </div>
+            <div class="modal-body">
+                <h3 class="text-center">Coming soon</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Parent modal boxes -->
+
+
+<div class="modal fade" id="parent_manage_family" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title text-center">Manage family</h3>
+                <div class="text-center">parent managing kid and entire family. they can add/remove who can access this kid.</div>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image" style="text-align: center;">
+                    <img src="/img/manage-family.png" style="margin: auto;"/>
+                </div>
+                <div class="text-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="parent_messages" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title text-center">Message</h3>
+                <div class="text-center">parent can send message to school. let’s say kid is not coming to school today.</div>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image" style="text-align: center;">
+                    <img src="/img/parent-message.png" style="margin: auto;"/>
+                </div>
+                <div class="text-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="parent_connect" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title text-center">Connect</h3>
+                <div class="text-center">parent can connect with other parents. or may be friends — not necessarily friends.</div>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image" style="text-align: center;">
+                    <img src="/img/connect.png" style="margin: auto;"/>
+                </div>
+                <div class="text-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="parent_share" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title text-center">Share</h3>
+                <div class="text-center">parent can share a photo/text with his friends or family</div>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image" style="text-align: center;">
+                    <img src="/img/share.png" style="margin: auto;"/>
+                </div>
+                <div class="text-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="parent_notes" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 class="modal-title text-center">Note</h3>
+                <div class="text-center">parent can take notes</div>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image" style="text-align: center;">
+                    <img src="/img/parent_notes.png" style="margin: auto;"/>
+                </div>
+                <div class="text-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <footer>
     <div class="container">
