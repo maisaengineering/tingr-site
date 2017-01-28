@@ -179,7 +179,7 @@ p {
   background-size: cover;
   background-position: center;
   min-height: 300px;
-  background-image: url("/img/teacher_final1.jpg");
+  background-image: url("https://s3.amazonaws.com/asset.tingr.org/uploads/tingr-site/teacher_mobile.jpg");
   -webkit-transition: background 1s ease-in-out;
   -moz-transition: background 1s ease-in-out;
   -ms-transition: background 1s ease-in-out;
@@ -191,7 +191,7 @@ p {
   background-size: cover;
   background-position: center;
   min-height: 300px;
-  background-image: url("/img/parent_final1.jpg");
+  background-image: url("https://s3.amazonaws.com/asset.tingr.org/uploads/tingr-site/parent_mobile.jpg");
   -webkit-transition: background 1s ease-in-out;
   -moz-transition: background 1s ease-in-out;
   -ms-transition: background 1s ease-in-out;
@@ -265,12 +265,12 @@ header {
 
   #header {
     background-size: cover;
-    background-image: url("/img/2.jpg");
+    background-image: url("https://s3.amazonaws.com/asset.tingr.org/uploads/tingr-site/teacher_web.jpg");
     height: 70vh; }
 
   #header-parent {
     background-size: cover;
-    background-image: url("/img/13.jpg");
+    background-image: url("https://s3.amazonaws.com/asset.tingr.org/uploads/tingr-site/parent_web.jpg");
     height: 70vh; } }
 section {
   padding: 100px 0; }
@@ -324,7 +324,7 @@ section {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url("{{ site.baseurl }}/img/bg-cta.jpg");
+    background-image: url("");
     padding: 250px 0; }
     section.cta .cta-content {
       position: relative;
@@ -349,7 +349,7 @@ section {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url("{{ site.baseurl }}/img/donate.jpg");
+    background-image: url("");
     padding: 250px 0; }
     section.cta-donate .cta-content-donate {
       position: relative;
