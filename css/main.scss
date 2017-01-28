@@ -39,6 +39,8 @@ $head-secondary: #dc2430 ;
 $theme-primary: #fdcc52 ;
 $theme-secondary: #fdc539 ;
 $theme-dark: #222;
+$baseurl: "{{ site.baseurl }}";
+
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
