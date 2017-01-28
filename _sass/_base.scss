@@ -327,13 +327,13 @@ header {
 
   #header{
     background-size: cover;
-    background-image: url($baseurl + "/img/2.jpg");
+    background-image: url("/img/2.jpg");
     height: 70vh;
   }
 
   #header-parent{
     background-size: cover;
-    background-image: url($baseurl + "/img/13.jpg");
+    background-image: url("/img/13.jpg");
     height: 70vh;
   }
 }
